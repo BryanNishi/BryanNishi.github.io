@@ -1,0 +1,59 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    background-image: url(texture.jpg);
+    margin-bottom: 44px;
+}
+
+h1 {
+    background-color: #4aaaa5;
+}
+
+h2 {
+    color: #4aaaa5;
+    padding-left: 1%;
+    padding-top: 1%;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: #4aaaa5;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(74,170,165)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.jumbotron {
+    background-color: white;
+}
+
+a {
+    color: #4aaaa5;
+}
+
+.btn {
+    background-color: #4aaaa5;
+    color: white;
+    box-shadow: 3px 3px 10px 0 #265754;
+}
+
+.caption {
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    background-color: #666;
+    color: white;
+    width: 100%;
+    text-align: center;
+    height: 44px;
+    line-height: 40px;
+    border-top: 4px solid #4aaaa5;
+}
