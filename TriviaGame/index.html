@@ -19,12 +19,12 @@
             <div class="row start">
                 <div class="col-md-12">
                     <p> Welcome to the Monty Python Trivia Game!</p>
-                    <p>You will have 10 seconds to answer each question. See if you can get all 10 questions right.</p>
-                    <button id="start" class="btn" >Click to Start!</button>
+                    <p>You will have 30 seconds to answer each question. See if you can get all 10 questions right.</p>
+                    <button id="start" class="btn">Click to Start!</button>
                 </div>
             </div>
             <div class="row timer">
-                <div class="col-md-6">
+                <div class="col-md-12">
                     <div>
                         <h2>Time Left:
                             <span id="timer"></span>
@@ -32,37 +32,21 @@
                     </div>
                 </div>
             </div>
-            <div class="row question">
-                <div class="col-md-12">
-                    <div>
-                        <h3>Question:
-                            <span id="question"></span>
-                        </h3>
-                        <h4>1:
-                            <span id="answer1"></span>
-                        </h4>
-                        <h4>2:
-                            <span id="answer2"></span>
-                        </h4>
-                        <h4>3:
-                            <span id="answer3"></span>
-                        </h4>
-                        <h4>4:
-                            <span id="answer4"></span>
-                        </h4>
-                    </div>
+            <div class="row answers">
+                <div class="col-md-6 col-xs-offset-3" id="qa">
                 </div>
-            </div>
-            <div class="row result">
-                <div class="col-md-6">
-                    <div>
-                        <h2>
-                            <span id="result"></span>
-                        </h2>
-                    </div>
+                <div class="col-md-3">
                 </div>
             </div>
         </div>
+    </div>
+    </div>
+    </div>
+    <div class="row result">
+        <div class="col-md-6" id="result">
+        </div>
+    </div>
+    </div>
     </div>
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
